@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin:0;
+}
+nav{
+	box-shadow: 0px 5px grey;
+	border-radius: 5px;
+}
+nav .logo{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	font-size: 35px;
+	font-weight: bold;
+}
+nav .ba{
+	color: red;
+	font-size: 35px;
+	font-weight: bold;
+}
+div ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-right: 40px;
+	float: right;
+}
+div ul li a{
+	line-height: 120px;
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 20px;
+	color: rgb(37, 58, 6);
+	text-decoration: none;
+	font-family: Arial;
+}
+div ul li a:hover{
+	background-color: grey;
+	border-radius: 5px;
+}
+th{ color: rgb(122, 16, 69);
